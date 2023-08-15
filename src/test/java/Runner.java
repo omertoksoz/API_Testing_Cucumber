@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources",
         glue={"stepDefinitions"},
-        tags="",
-        dryRun = false
+        tags="@ReqresIn4",
+        dryRun = true
 )
 
 public class Runner {
