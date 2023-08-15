@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd91114-e568-47cc-a009-dc9144ead66a" name="Changes" comment="">
+    <list default="true" id="ccd91114-e568-47cc-a009-dc9144ead66a" name="Changes" comment="T115 Cucumber API started">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ApiCalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/JsonPlaceHolderGet.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/JsonPlaceHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/JsonPlaceHolderGet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/JsonPlaceHolderGet.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +47,32 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Scenario: Get endpoint 44 and verify response body" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/JsonPlaceHolderGet.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="API_Testing_Cucumber" />
+      <option name="NAME_FILTER" value="^Get endpoint 44 and verify response body$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get endpoint 44 and verify response body$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get endpoint 44 and verify response body" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Get endpoint 44 and verify response body" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,11 +81,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692055238317</updated>
-      <workItem from="1692055239358" duration="1229000" />
+      <workItem from="1692055239358" duration="3230000" />
     </task>
+    <task id="LOCAL-00001" summary="T115 Cucumber API started">
+      <created>1692056510163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692056510163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="T115 Cucumber API started" />
+    <option name="LAST_COMMIT_MESSAGE" value="T115 Cucumber API started" />
   </component>
 </project>
